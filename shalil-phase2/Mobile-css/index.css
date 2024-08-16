@@ -1,0 +1,41 @@
+body{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header"
+    "content"
+    "aside"
+    "footer";
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+article section{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+article section div{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    color: white;
+    font-size: 0.75em;
+    padding: 1em;
+}

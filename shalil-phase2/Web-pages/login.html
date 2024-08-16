@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../Web-page-css/reset.css">
+    <link rel="stylesheet" href="../Web-page-css/login.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="../Mobile-css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Basic&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <h1>Sahin Halil</h1>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="viewblog.php">Blog</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form method="post" action="../Scripts/login.php">
+        <fieldset>
+            <legend>Login Form</legend>
+            <p>
+                <input type="email" name="email" placeholder="Enter your email">
+            </p>
+            <p>
+                <input type="password" name="password" placeholder="Enter your password">
+            </p>
+            <p>
+                <button type = "submit">Login</button>
+            </p>
+        </fieldset>
+    </form>
+    <footer>
+        <p>&copy; 2023 Sahin Halil</p>
+    </footer>
+    <script src="../Scripts/script.js"></script>
+</body>
+</html>
