@@ -25,7 +25,7 @@ Welcome to my portfolio website! This project showcases my skills, projects, and
 # Setup
 1. Install XAMPP:
     - If you haven’t already, download and install XAMPP from the official website.
-    - 
+    
 2. Start the Apache and MySQL services.
     - Clone or Download This Repository:
     - Clone this repository to your XAMPP htdocs directory (usually located at C:\xampp\htdocs).
