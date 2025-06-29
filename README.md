@@ -1,7 +1,7 @@
-# Portfolio-Site-Prototype
+# Portfolio-Blog-Site
 
 # Introduction
-Welcome to my portfolio website! This project showcases my skills, projects, and accomplishments. It’s built using HTML, CSS, and JavaScript, and I’m hosting it locally using XAMPP.
+Welcome to my portfolio website with blog functionality! This project showcases my skills, projects, and accomplishments. It’s built using HTML, CSS, and JavaScript, and I’m hosting it locally using XAMPP.
 
 # Features
 - Responsive Design: The website adapts to different screen sizes (desktop, tablet, mobile).
